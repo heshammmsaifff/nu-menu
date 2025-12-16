@@ -27,7 +27,8 @@ export default function Extra() {
     },
     {
       name: "طاجن أم على",
-      description: "حلوى أم علي دافئة بحليب ومكسرات وزبيب.",
+      description:
+        "طاجن فخار مصري أصلي، يتحمل حرارة الفرن ويمنح الطواجن طعم وتسوية مثالية..",
       sizes: [{ price: 20 }],
     },
     {
@@ -76,5 +77,3 @@ export default function Extra() {
     </main>
   );
 }
-
-
