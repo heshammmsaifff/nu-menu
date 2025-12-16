@@ -1,0 +1,319 @@
+@import "tailwindcss";
+
+:root {
+  /* NU Cafe inspired palette */
+  --nu-bg: #b98d50;
+  --nu-bg-soft: #c5a77c;
+  --nu-bg-deep: #c29b6f;
+  --nu-bg-ink: #3e2a1b;
+
+  --nu-primary: #6b4a2b;
+  --nu-primary-soft: #8b5f34;
+  --nu-accent: #d9b782;
+  --nu-accent-soft: #f1d7a5;
+
+  --nu-border-subtle: rgba(107, 74, 43, 0.16);
+  --nu-card-shadow: 0 18px 45px rgba(28, 18, 10, 0.28);
+
+  --nu-text-main: #3e2a1b;
+  --nu-text-muted: #8b7660;
+}
+
+body {
+  background-color: var(--nu-bg);
+  color: var(--nu-text-main);
+}
+
+.bg-main-gradient {
+  min-height: 100vh;
+  background: radial-gradient(
+    circle at top,
+    rgba(255, 255, 255, 0.85) 0%,
+    rgba(242, 223, 195, 0.9) 30%,
+    rgba(194, 155, 111, 0.9) 55%,
+    rgba(44, 29, 19, 1) 95%
+  );
+  color: var(--nu-text-main);
+}
+
+/* Shared layout for all menu pages */
+.nu-page {
+  min-height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: radial-gradient(
+    circle at top,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(245, 231, 210, 0.96) 32%,
+    rgba(230, 205, 172, 0.98) 55%,
+    rgba(44, 29, 19, 1) 100%
+  );
+}
+
+.nu-page__inner {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* Headings */
+.nu-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: var(--nu-bg-ink);
+}
+
+.nu-heading--light {
+  color: #fdf8ef;
+}
+
+.nu-heading-sub {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--nu-text-muted);
+}
+
+.nu-heading-sub--light {
+  color: rgba(255, 247, 232, 0.8);
+}
+
+/* Category cards (drinks list) */
+.nu-category-shell {
+  border-radius: 1.25rem; /* rounded-2xl */
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(217, 183, 130, 0.9),
+    rgba(67, 45, 26, 1)
+  );
+}
+
+.nu-category-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) auto;
+  align-items: center;
+  padding: 1rem 1.15rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.96),
+    rgba(244, 225, 197, 0.98),
+    rgba(210, 173, 121, 1)
+  );
+  box-shadow: 0 18px 40px rgba(45, 28, 15, 0.6);
+  overflow: hidden;
+}
+
+.nu-category-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 255, 255, 0.35),
+    transparent 55%
+  );
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.nu-category-text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 0.25rem;
+}
+
+.nu-category-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--nu-bg-ink);
+}
+
+.nu-category-meta {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  max-width: 14rem;
+  color: var(--nu-text-muted);
+}
+
+.nu-category-thumb {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  border-radius: 999px;
+  background: radial-gradient(
+    circle at 30% 0%,
+    #ffffff 0%,
+    #f7e5c8 40%,
+    #c89a5f 100%
+  );
+  box-shadow: 0 0 32px rgba(64, 39, 18, 0.65);
+  overflow: hidden;
+}
+
+.nu-category-thumb-inner {
+  position: absolute;
+  inset: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Menu list cards (each item & price row) */
+.nu-card {
+  position: relative;
+  border-radius: 1.4rem;
+  padding: 0.85rem 1.1rem 0.9rem;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1.6fr);
+  align-items: center;
+  column-gap: 1.1rem;
+  background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.96),
+      rgba(245, 227, 202, 0.98)
+    ),
+    radial-gradient(
+      circle at right,
+      rgba(243, 216, 177, 0.9),
+      rgba(215, 180, 126, 0.95)
+    );
+  box-shadow: var(--nu-card-shadow);
+}
+
+.nu-card__prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.18rem;
+}
+
+.nu-card__price {
+  display: flex;
+  align-items: baseline;
+  gap: 0.15rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--nu-text-main);
+}
+
+.nu-card__price span {
+  font-size: 1.3rem;
+}
+
+.nu-card__content {
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  text-align: right;
+}
+
+.nu-card__name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--nu-bg-ink);
+}
+
+.nu-card__description {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--nu-text-muted);
+  margin-top: 0.05rem;
+}
+
+.nu-size-chips {
+  position: absolute;
+  top: -1.2rem;
+  left: 1.5rem;
+  display: flex;
+  gap: 0.35rem;
+}
+
+.nu-size-chip {
+  padding: 0.18rem 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 999px;
+  background: linear-gradient(
+    135deg,
+    var(--nu-primary),
+    var(--nu-primary-soft)
+  );
+  color: #fffaf3;
+  box-shadow: 0 8px 18px rgba(90, 55, 26, 0.65);
+}
+
+/* Primary button */
+.nu-button-primary {
+  position: relative;
+  width: 244px;
+  height: 75px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fffaf3;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(54, 33, 17, 0.6);
+  background: radial-gradient(
+      circle at 10% 0%,
+      rgba(255, 255, 255, 0.2),
+      transparent 55%
+    ),
+    linear-gradient(135deg, #3e2817, #6b4a2b, #c29b6f);
+}
+
+.nu-button-primary::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: 19px;
+  background: radial-gradient(
+    circle at top,
+    rgba(255, 255, 255, 0.15),
+    rgba(64, 39, 18, 0.8)
+  );
+}
+
+.nu-button-primary span {
+  position: relative;
+  z-index: 10;
+}
+
+/* Back link */
+.nu-back-button {
+  margin-top: 1.5rem;
+  margin-inline: auto;
+  padding-inline: 1.75rem;
+  padding-block: 0.8rem;
+  border-radius: 0.9rem;
+  font-weight: 700;
+  color: #fffaf3;
+  background: linear-gradient(135deg, #3e2817, #6b4a2b);
+  box-shadow: 0 14px 30px rgba(54, 33, 17, 0.7);
+  transition: transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease;
+}
+
+.nu-back-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(54, 33, 17, 0.85);
+  opacity: 0.96;
+}
+
+.nu-back-button:active {
+  transform: translateY(0);
+  box-shadow: 0 10px 22px rgba(54, 33, 17, 0.6);
+}
