@@ -22,7 +22,7 @@ export default function HotDrinks() {
     },
     {
       name: "أعشاب (ينسون - قرفة - جنزبيل)",
-      description: "مشروب أعشاب مهدئ بمزيج ينسون وقرفة وزنجبيل.",
+      description: "مشروب أعشاب مهدئ اختر بين ينسون، قرفة، أو زنجبيل.",
       sizes: [{ price: 25 }],
     },
     {
