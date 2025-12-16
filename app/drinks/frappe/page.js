@@ -27,7 +27,7 @@ export default function Frappe() {
     },
     {
       name: "فرابتشينو (كراميل - شوكليت)",
-      description: "مزيج شوكليت وكراميل بارد بقوام سميك وممتع.",
+      description: "مزيج بارد بقوام سميك وممتع.",
       sizes: [{ price: 100 }],
     },
     {
