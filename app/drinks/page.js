@@ -60,6 +60,18 @@ export default function Drinks() {
       description: "سموثي فواكه كريمي ومنعش بتركيبات مميزة.",
     },
     {
+      name: "Soft Drink",
+      slug: "softdrink",
+      image: null,
+      description: "مشروبات غازية ومثلجة بلمسات عصرية.",
+    },
+    {
+      name: "Fruit Salad",
+      slug: "fruitsalad",
+      image: null,
+      description: "سلطة فواكه موسمية تقدم بتقديم أنيق.",
+    },
+    {
       name: "Stick Fruit",
       slug: "stickfruit",
       image: null,
@@ -88,18 +100,6 @@ export default function Drinks() {
       slug: "extra",
       image: null,
       description: "إضافات جانبية مكملة لتجربتك مثل المكسرات والصوص.",
-    },
-    {
-      name: "Soft Drink",
-      slug: "softdrink",
-      image: null,
-      description: "مشروبات غازية ومثلجة بلمسات عصرية.",
-    },
-    {
-      name: "Fruit Salad",
-      slug: "fruitsalad",
-      image: null,
-      description: "سلطة فواكه موسمية تقدم بتقديم أنيق.",
     },
   ];
 

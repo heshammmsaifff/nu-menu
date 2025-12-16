@@ -102,7 +102,7 @@ export default function Home() {
             </Link>
 
             <p
-              className="max-w-sm text-sm md:text-base text-black mt-3"
+              className="max-w-sm text-sm md:text-base text-white mt-3"
               dir="rtl"
             >
               لعبة خفيفة وسريعة 🍔 امسك أكبر عدد من الأكلات خلال 30 ثانية

@@ -40,6 +40,12 @@ export default function Dessert() {
       description: "طبق أم علي بالحليب والمكسرات والزبيب.",
       sizes: [{ price: 95 }],
     },
+    {
+      name: "تيراميسو",
+      description:
+        "حلوي إيطالية كلاسيكية باردة، طبقات من البسكويت المنغمس في القهوة مع الكريمة الغنية",
+      sizes: [{ price: 85 }],
+    },
   ];
 
   return (
@@ -81,5 +87,3 @@ export default function Dessert() {
     </main>
   );
 }
-
-
