@@ -57,53 +57,60 @@ export default function Home() {
 
       {showMain && (
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="flex flex-col items-center gap-4"
+          className="flex flex-col items-center gap-12 text-center"
         >
-          {/* <Image
-            src="/logo.png"
-            alt="nu"
-            width={362}
-            height={206}
-            priority
-          /> */}
-          <div className="flex flex-col items-center gap-2 mt-10">
+          {/* ===== MENU SECTION ===== */}
+          <div className="flex flex-col items-center gap-4 mt-12">
             <Link href="/drinks">
               <motion.button
-                initial={{ scale: 0.8, opacity: 0 }}
+                initial={{ scale: 0.9, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.5 }}
-                className="hover:cursor-pointer nu-button-primary"
+                transition={{ delay: 0.4, duration: 0.5 }}
+                className="nu-button-primary hover:cursor-pointer"
               >
-                <span className="text-[30px] font-bold tracking-[0.18em] uppercase">
+                <span className="text-[28px] md:text-[30px] font-bold tracking-[0.18em] uppercase">
                   Open Menu
                 </span>
               </motion.button>
             </Link>
+
             <p
-              className="text-lg text-center text-[rgba(248,240,227,0.9)] mt-10"
+              className="max-w-md text-base md:text-lg leading-relaxed text-black mt-3"
               dir="rtl"
             >
-              اكتشف قائمة NU المختارة بعناية من القهوة والمشروبات والحلويات.
+              اكتشف قائمة NU المختارة بعناية من القهوة والمشروبات والحلويات،
+              تجربة بسيطة بطعم فاخر.
             </p>
           </div>
 
-          <Link href="/game">
-            <motion.button
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.5 }}
-              className="hover:cursor-pointer nu-button-primary"
+          {/* ===== GAME SECTION ===== */}
+          <div className="flex flex-col items-center gap-4 mt-5">
+            <Link href="/game">
+              <motion.button
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ delay: 0.7, duration: 0.5 }}
+                className="nu-button-primary hover:cursor-pointer"
+              >
+                <span className="text-[22px] md:text-[24px] font-semibold tracking-[0.14em] uppercase">
+                  Play a Game
+                </span>
+              </motion.button>
+            </Link>
+
+            <p
+              className="max-w-sm text-sm md:text-base text-black mt-3"
+              dir="rtl"
             >
-              <span className="text-[30px] font-bold tracking-[0.18em] uppercase">
-                Game
-              </span>
-            </motion.button>
-          </Link>
+              لعبة خفيفة وسريعة 🍔 امسك أكبر عدد من الأكلات خلال 30 ثانية
+            </p>
+          </div>
         </motion.div>
       )}
+
       <footer className="absolute bottom-4 w-full text-center text-xs tracking-wide text-[rgba(248,240,227,0.55)]">
         Built and designed by{" "}
         <span className="font-semibold text-[#e2ba5b] tracking-wider">
