@@ -89,22 +89,19 @@ export default function Home() {
               اكتشف قائمة NU المختارة بعناية من القهوة والمشروبات والحلويات.
             </p>
           </div>
-          {/* <Link href="/coffee">
+
+          <Link href="/game">
             <motion.button
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="hover:cursor-pointer w-[244px] h-[75px] rounded-[20px] text-lg font-bold text-white relative overflow-hidden mt-[40px]"
+              className="hover:cursor-pointer nu-button-primary"
             >
-              <span className="relative z-10 text-[30px] font-bold">
-                منيو البن
+              <span className="text-[30px] font-bold tracking-[0.18em] uppercase">
+                Game
               </span>
-              <span
-                className="absolute inset-[1px] rounded-[19px]"
-                style={{ background: "#493A2599" }}
-              ></span>
             </motion.button>
-          </Link> */}
+          </Link>
         </motion.div>
       )}
       <footer className="absolute bottom-4 w-full text-center text-xs tracking-wide text-[rgba(248,240,227,0.55)]">
