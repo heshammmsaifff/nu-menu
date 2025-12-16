@@ -22,7 +22,7 @@ export default function HotDrinks() {
     },
     {
       name: "أعشاب (ينسون - قرفة - جنزبيل)",
-      description: "مشروب أعشاب مهدئ اختر بين ينسون، قرفة، أو زنجبيل.",
+      description: "مشروب أعشاب مهدئ، اختر بين ينسون، قرفة، أو زنجبيل.",
       sizes: [{ price: 25 }],
     },
     {
@@ -32,7 +32,7 @@ export default function HotDrinks() {
     },
     {
       name: "سحلب",
-      description: "مشروب سحلب كثيف ودافئ مزين بالمكسرات والقرفة.",
+      description: "مشروب سحلب كثيف ودافئ، إختر بين المكسرات أو الشوكليت.",
       sizes: [{ price: 60 }],
     },
     {
