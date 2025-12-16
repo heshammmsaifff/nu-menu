@@ -117,7 +117,7 @@ export default function Drinks() {
           <div key={cat.slug} className="nu-category-shell">
             <Link href={`/drinks/${cat.slug}`}>
               <div className="nu-category-card cursor-pointer">
-                <div className="nu-category-text" dir="rtl">
+                <div className="nu-category-text" dir="ltr">
                   <h2 className="nu-category-title">{cat.name}</h2>
                   <span className="nu-category-meta">{cat.description}</span>
                 </div>

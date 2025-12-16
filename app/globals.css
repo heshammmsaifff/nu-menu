@@ -98,7 +98,7 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) auto;
-  align-items: center;
+  align-items: right;
   padding: 1rem 1.15rem;
   border-radius: 1.25rem;
   background: linear-gradient(

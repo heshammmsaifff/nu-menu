@@ -32,14 +32,14 @@ export default function FruitSalad() {
                   </span>
                 ))}
               </div>
-            <div className="nu-card__content" dir="rtl">
-              <span className="nu-card__name">{item.name}</span>
-              {item.description && (
-                <span className="nu-card__description">
-                  {item.description}
-                </span>
-              )}
-            </div>
+              <div className="nu-card__content  w-full" dir="rtl">
+                <span className="nu-card__name">{item.name}</span>
+                {item.description && (
+                  <span className="nu-card__description">
+                    {item.description}
+                  </span>
+                )}
+              </div>
             </div>
           </div>
         ))}
@@ -51,5 +51,3 @@ export default function FruitSalad() {
     </main>
   );
 }
-
-

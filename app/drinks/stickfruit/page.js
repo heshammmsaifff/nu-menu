@@ -47,7 +47,7 @@ export default function StickFruit() {
                   </span>
                 ))}
               </div>
-              <div className="nu-card__content" dir="rtl">
+              <div className="nu-card__content  w-full" dir="rtl">
                 <span className="nu-card__name">{item.name}</span>
                 {item.description && (
                   <span className="nu-card__description">
