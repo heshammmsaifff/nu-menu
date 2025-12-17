@@ -6,8 +6,9 @@ import Link from "next/link";
 export default function IceCream() {
   const items = [
     {
-      name: "طن داما",
-      description: "طاجن آيس كريم مع صوص وتوبينج غني.",
+      name: "صن داي",
+      description:
+        "آيس كريم كريمي غني يُقدَّم مع صوص فاخر وتوبينج مختار بعناية.",
       sizes: [{ price: 85 }],
     },
     {

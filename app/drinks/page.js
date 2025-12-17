@@ -15,7 +15,7 @@ export default function Drinks() {
       name: "Hot Drinks",
       slug: "hotdrinks",
       image: null,
-      description: "مشروبات دافئة وأعشاب لسط لحظات هادئة ومريحة.",
+      description: "مشروبات دافئة وأعشاب  للحظات هادئة ومريحة.",
     },
     {
       name: "Matcha",
@@ -114,12 +114,14 @@ export default function Drinks() {
         </header>
 
         {categories.map((cat, i) => (
-          <div key={cat.slug} className="nu-category-shell">
+          <div key={cat.slug} className="nu-category-shell" dir="rtl">
             <Link href={`/drinks/${cat.slug}`}>
               <div className="nu-category-card cursor-pointer">
                 <div className="nu-category-text" dir="ltr">
                   <h2 className="nu-category-title">{cat.name}</h2>
-                  <span className="nu-category-meta">{cat.description}</span>
+                  <span className="nu-category-meta" dir="rtl">
+                    {cat.description}
+                  </span>
                 </div>
 
                 <div className="nu-category-thumb">
