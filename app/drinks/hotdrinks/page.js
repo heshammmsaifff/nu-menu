@@ -43,12 +43,12 @@ export default function HotDrinks() {
     {
       name: "هوت شوكليت",
       description: "شوكليت ساخن كريمي لعشاق الشوكولاتة الغنية.",
-      sizes: [{ price: 75 }],
+      sizes: [{ price: 90 }],
     },
     {
       name: "هوت اوريو",
       description: "مشروب ساخن بطعم الأوريو وكريمة لذيذة.",
-      sizes: [{ price: 80 }],
+      sizes: [{ price: 90 }],
     },
     {
       name: "هوت NU",
