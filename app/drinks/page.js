@@ -116,7 +116,8 @@ export default function Drinks() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">Menu</h1>
           <p className="nu-heading-sub">
-            اختر القسم الذي يناسب مزاجك من قهوة ساخنة، مشروبات خاصة، وحلويات NU.
+            اختر ما يناسب مزاجك في أي وقت من اليوم، من فطار شهي، قهوة ساخنة،
+            مشروبات مميزة، وحلويات NU.
           </p>
         </header>
 
