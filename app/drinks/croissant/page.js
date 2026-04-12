@@ -26,7 +26,7 @@ export default function HotDrinks() {
       sizes: [{ price: 60 }],
     },
     {
-      name: "كرواسو (نوتيلا / لوتس / دايت)",
+      name: "كرواسو (نوتيلا / لوتس / وايت شوكليت)",
       description: "",
       sizes: [{ price: 55 }],
     },
@@ -51,9 +51,10 @@ export default function HotDrinks() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">• HOT DRINK •</h1>
+          <h1 className="nu-heading">• Croissant •</h1>
           <p className="nu-heading-sub">
-            مشروبات دافئة بطابع منزلي لترافقك في أجواء NU الهادئة.
+            كرواسون فرنسي فاخر بطبقات ذهبية هشة، يذوب في الفم ويكمل تجربتك مع
+            القهوة.
           </p>
         </header>
 

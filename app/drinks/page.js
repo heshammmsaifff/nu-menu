@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Drinks() {
   const categories = [
     {
-      name: "Croissant",
+      name: "Break Fast",
       slug: "croissant ",
       image: null,
       description:
