@@ -6,6 +6,13 @@ import Link from "next/link";
 export default function Drinks() {
   const categories = [
     {
+      name: "Croissant",
+      slug: "croissant ",
+      image: null,
+      description:
+        "كرواسو طازج وهش بطبقات ذهبية مقرمشة من الخارج وناعمة من الداخل، مثالي للإفطار أو مع القهوة.",
+    },
+    {
       name: "Hot Coffee",
       slug: "coffee",
       image: null,
