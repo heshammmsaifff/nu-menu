@@ -64,7 +64,7 @@ export default function HotDrinks() {
               <div className="nu-card__prices">
                 {item.sizes.map((size, idx) => (
                   <span key={idx} className="nu-card__price">
-                    <span>{size.price}</span>L.E
+                    <span>{size.price + 5}</span>L.E
                   </span>
                 ))}
               </div>
