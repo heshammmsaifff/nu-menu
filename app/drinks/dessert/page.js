@@ -8,32 +8,32 @@ export default function Dessert() {
     {
       name: "ريد فيلفت",
       description: "كيك ريد فيلفت بطبقات كريمية ناعمة.",
-      sizes: [{ price: 80 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "براونيز",
       description: "براونيز شوكليت طري من الداخل وغني بالنكهة.",
-      sizes: [{ price: 75 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "سينابون",
       description: "رولات قرفة دافئة بصلصة كريمية.",
-      sizes: [{ price: 75 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "تشيزكيك",
       description: "تشيز كيك كريمي بقاعدة بسكويت مقرمشة.",
-      sizes: [{ price: 75 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "مولتن كيك",
       description: "كيك شوكليت ساخن بقلب سائل يذوب.",
-      sizes: [{ price: 85 }],
+      sizes: [{ price: 105 }],
     },
     {
       name: "شوكلينا كيك",
       description: "كيك شوكليت غني بطبقات متعددة.",
-      sizes: [{ price: 80 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "أم على",
