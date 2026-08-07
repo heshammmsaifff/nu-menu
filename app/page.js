@@ -107,8 +107,8 @@ export default function Home() {
                 whileTap={{ scale: 0.95 }}
                 className="nu-button-primary group relative overflow-hidden"
               >
-                <span className="relative z-10 text-[26px] md:text-[30px] font-bold tracking-[0.18em] uppercase">
-                  Open Menu
+                <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
+                  Drinks & Dessert Menu
                 </span>
               </motion.button>
             </Link>
@@ -121,9 +121,29 @@ export default function Home() {
               تجربة بسيطة بطعم فاخر.
             </p>
           </div>
+          <div className="flex flex-col items-center gap-4">
+            <Link href="/food">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="nu-button-primary group relative overflow-hidden"
+              >
+                <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
+                  Food Menu
+                </span>
+              </motion.button>
+            </Link>
+
+            <p
+              className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
+              dir="rtl"
+            >
+              اكتشف قائمة NU المختارة بعناية من الأطعمه، تجربة بسيطة بطعم فاخر.
+            </p>
+          </div>
 
           {/* GAME SECTION */}
-          <div className="flex flex-col items-center gap-4">
+          {/* <div className="flex flex-col items-center gap-4">
             <Link href="/game">
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -142,7 +162,7 @@ export default function Home() {
             >
               لعبة خفيفة وسريعة 🍔 امسك أكبر عدد من الأكلات خلال 30 ثانية
             </p>
-          </div>
+          </div> */}
 
           {/* CONTACT BUTTON */}
           <motion.button

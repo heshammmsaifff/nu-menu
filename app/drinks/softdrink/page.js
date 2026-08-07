@@ -2,41 +2,21 @@
 
 import Link from "next/link";
 
-// SOFT DRINK منيو
+// page 5
 export default function SoftDrink() {
   const items = [
     {
-      name: "موخيتو ماتشا",
-      description: "مزيج موخيتو منعش مع لمسة ماتشا خفيفة.",
-      sizes: [{ price: 130 }],
-    },
-    {
-      name: "بلوراس بيري ليمونادا",
-      description: "عصير بيري مع ليمونادا غازية بنكهة فواكه زاهية.",
-      sizes: [{ price: 120 }],
-    },
-    {
-      name: "موخيتو",
-      description: "موخيتو كلاسيكي بالنعناع والليمون وصودا منعشة.",
+      name: "موهيتو ",
+      description: "موهيتو منعش وصودا باردة.",
       sizes: [{ price: 100 }],
     },
     {
-      name: "لافندر صودا",
-      description: "صودا بنكهة اللافندر العطرية ولمسة زهرية ناعمة.",
-      sizes: [{ price: 90 }],
-    },
-    {
-      name: "شيري كولا",
-      description: "مشروب كولا مع كرز لحلاوة مميزة.",
-      sizes: [{ price: 85 }],
-    },
-    {
-      name: "NU",
-      description: "مشروب توقيع NU الغازي بنكهات خاصة.",
+      name: "ميكس سوفت",
+      description: "مزيج سوفت غازي خاص ومثلج.",
       sizes: [{ price: 150 }],
     },
     {
-      name: "Flux shoot",
+      name: "FLUX shoot",
       description: "مشروب طاقة غازي بنكهة قوية لعشاق الانتعاش.",
       sizes: [{ price: 150 }],
     },

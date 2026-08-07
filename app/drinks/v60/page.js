@@ -2,38 +2,23 @@
 
 import Link from "next/link";
 
-// page 1
-export default function HotDrinks() {
+// page 2
+export default function V60Speciality() {
   const items = [
     {
-      name: "شاي",
-      description: "",
-      sizes: [{ price: 30 }],
+      name: "Santos (Br)",
+      description: "the CARNIVAL",
+      sizes: [{ price: 100 }],
     },
     {
-      name: "شاي كرك",
-      description: "",
-      sizes: [{ price: 70 }],
+      name: "كولومبيا سوبريمو",
+      description: "Spice, CARAMEL",
+      sizes: [{ price: 110 }],
     },
     {
-      name: "ميكس اعشاب",
-      description: "",
-      sizes: [{ price: 55 }],
-    },
-    {
-      name: "سحلب مكسرات",
-      description: "",
-      sizes: [{ price: 70 }],
-    },
-    {
-      name: "هوت سيدر",
-      description: "",
-      sizes: [{ price: 65 }],
-    },
-    {
-      name: "هوت شوكلت",
-      description: "",
-      sizes: [{ price: 105 }],
+      name: "اثيوبيا يوجراشيف",
+      description: "tea Rose, peach",
+      sizes: [{ price: 130 }],
     },
   ];
 
@@ -41,9 +26,9 @@ export default function HotDrinks() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">• HOT DRINK •</h1>
+          <h1 className="nu-heading">• V60 Speciality •</h1>
           <p className="nu-heading-sub">
-            مشروبات دافئة بطابع منزلي لترافقك في أجواء NU الهادئة.
+            قهوة V60 مختصة بنكهات فاخرة ومحاصيل عالمية.
           </p>
         </header>
 

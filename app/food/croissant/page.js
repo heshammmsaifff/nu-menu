@@ -6,6 +6,12 @@ import Link from "next/link";
 export default function HotDrinks() {
   const items = [
     {
+      name: "فطار انجليزي",
+      description:
+        "قطعتين روزبيف - قطعتين تركي مدخن - بيض مسلوق - عسل نحل - زبدة",
+      sizes: [{ price: 40 }],
+    },
+    {
       name: "كرواسو سادة",
       description: "",
       sizes: [{ price: 40 }],
@@ -52,9 +58,8 @@ export default function HotDrinks() {
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
           <h1 className="nu-heading">• Croissant •</h1>
-          <p className="nu-heading-sub">
-            كرواسون فرنسي فاخر بطبقات ذهبية هشة، يذوب في الفم ويكمل تجربتك مع
-            القهوة.
+          <p className="nu-heading-sub" dir="rtl">
+            فطار NU.
           </p>
         </header>
 
@@ -80,7 +85,7 @@ export default function HotDrinks() {
           </div>
         ))}
 
-        <Link href="/drinks" className="nu-back-button">
+        <Link href="/food" className="nu-back-button">
           العودة للخلف
         </Link>
       </div>

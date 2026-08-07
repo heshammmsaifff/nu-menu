@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-// WAFFLES منيو
+// page 6
 export default function Waffles() {
   const items = [
     {
@@ -36,9 +36,9 @@ export default function Waffles() {
       sizes: [{ price: 85 }],
     },
     {
-      name: "family NU",
+      name: "Family",
       description: "وافلز عائلي متنوع بالتوبينج والصوصات.",
-      sizes: [{ price: 140 }],
+      sizes: [{ price: 160 }],
     },
   ];
 

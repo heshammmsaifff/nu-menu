@@ -2,38 +2,22 @@
 
 import Link from "next/link";
 
-// page 1
-export default function HotDrinks() {
+export default function Cocktails() {
   const items = [
     {
-      name: "شاي",
+      name: "فرايز",
       description: "",
-      sizes: [{ price: 30 }],
+      sizes: [{ price: 40 }],
     },
     {
-      name: "شاي كرك",
+      name: "فرايز تشيلي",
       description: "",
-      sizes: [{ price: 70 }],
+      sizes: [{ price: 50 }],
     },
     {
-      name: "ميكس اعشاب",
+      name: "فرايز تشيز",
       description: "",
       sizes: [{ price: 55 }],
-    },
-    {
-      name: "سحلب مكسرات",
-      description: "",
-      sizes: [{ price: 70 }],
-    },
-    {
-      name: "هوت سيدر",
-      description: "",
-      sizes: [{ price: 65 }],
-    },
-    {
-      name: "هوت شوكلت",
-      description: "",
-      sizes: [{ price: 105 }],
     },
   ];
 
@@ -41,9 +25,9 @@ export default function HotDrinks() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">• HOT DRINK •</h1>
-          <p className="nu-heading-sub">
-            مشروبات دافئة بطابع منزلي لترافقك في أجواء NU الهادئة.
+          <h1 className="nu-heading">~ FRIES ~</h1>
+          <p className="nu-heading-sub" dir="rtl">
+            فرايز NU
           </p>
         </header>
 
@@ -57,7 +41,7 @@ export default function HotDrinks() {
                   </span>
                 ))}
               </div>
-              <div className="nu-card__content w-full" dir="rtl">
+              <div className="nu-card__content  w-full" dir="rtl">
                 <span className="nu-card__name">{item.name}</span>
                 {item.description && (
                   <span className="nu-card__description">
@@ -69,7 +53,7 @@ export default function HotDrinks() {
           </div>
         ))}
 
-        <Link href="/drinks" className="nu-back-button">
+        <Link href="/food" className="nu-back-button">
           العودة للخلف
         </Link>
       </div>

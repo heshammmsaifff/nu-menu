@@ -2,93 +2,79 @@
 
 import Link from "next/link";
 
+// page 1
 export default function Coffee() {
   const items = [
     {
-      name: "قهوة تركي",
-      description: "قهوة تركية غنية بنكهة البن المحمص برغوة ناعمة.",
+      name: "تركي",
+      description: "",
       sizes: [
-        { label: "S", price: 45 },
-        { label: "D", price: 55 },
+        { label: "S", price: 47 },
+        { label: "D", price: 60 },
       ],
     },
     {
-      name: "قهوة عربي",
-      description: "قهوة عربية خفيفة مع هيل ولمسة تقليدية دافئة.",
-      sizes: [{ label: "Double", price: 60 }],
+      name: "فرنساوي",
+      description: "",
+      sizes: [{ price: 65 }],
     },
     {
-      name: "قهوة فرنساوي",
-      description: "قهوة بالحليب بنكهة ناعمة ولمسة فانيليا خفيفة.",
-      sizes: [{ label: "Double", price: 60 }],
-    },
-    {
-      name: "قهوة بندق",
-      description: "قهوة بالحليب مع نكهة البندق المحمص الغنية.",
-      sizes: [{ label: "Double", price: 60 }],
+      name: "بندق",
+      description: "",
+      sizes: [{ price: 70 }],
     },
     {
       name: "اسبريسو",
-      description: "شوت اسبريسو مركز بنكهة قوية لعشاق القهوة الصافية.",
+      description: "",
       sizes: [
-        { label: "s", price: 48 },
-        { label: "D", price: 58 },
+        { label: "S", price: 55 },
+        { label: "D", price: 65 },
       ],
     },
     {
-      name: "رستريتو",
-      description: "شوت أقصر وأكثر تركيزًا من الاسبريسو لمحبي النكهة القوية.",
-      sizes: [{ label: "Double", price: 55 }],
-    },
-    {
       name: "ميكاتو",
-      description: "اسبريسو مع لمسة حليب صغيرة لتلطيف النكهة.",
-      sizes: [{ label: "Double", price: 60 }],
+      description: "",
+      sizes: [{ price: 65 }],
     },
     {
       name: "كورتادو",
-      description: "توازن متساوٍ بين الاسبريسو والحليب لقوام مخملي.",
-      sizes: [{ label: "Double", price: 65 }],
+      description: "",
+      sizes: [{ price: 75 }],
     },
     {
       name: "فلات وايت",
-      description: "شوت اسبريسو مع حليب مخمّر برغوة ناعمة وخفيفة.",
-      sizes: [{ label: "Double", price: 80 }],
-    },
-    {
-      name: "كوبا كوبانا",
-      description: "مزيج خاص من القهوة والحليب بنكهات شوكليت خفيفة.",
-      sizes: [{ label: "Double", price: 70 }],
+      description: "",
+      sizes: [{ price: 75 }],
     },
     {
       name: "لاتيه",
-      description: "قهوة بالحليب الكلاسيكية بقوام كريمي وناعم.",
-      sizes: [{ label: "Double", price: 85 }],
+      description: "",
+      sizes: [{ price: 87 }],
     },
     {
       name: "كابتشينو",
-      description: "قهوة بالحليب مع رغوة كثيفة ورشة كاكاو خفيفة.",
-      sizes: [{ label: "Double", price: 85 }],
+      description: "",
+      sizes: [{ price: 90 }],
     },
     {
       name: "نسكافيه",
-      description: "مشروب قهوة سريع التحضير بقوام خفيف ومعتدل.",
-      sizes: [{ label: "Double", price: 75 }],
+      description: "",
+      sizes: [{ price: 85 }],
     },
     {
-      name: "سبانيش لاتيه",
-      description: "لاتيه بحليب مكثف محلى يعطي حلاوة متوازنة وغنية.",
-      sizes: [{ label: "Double", price: 95 }],
+      name: "سبانش لاتيه",
+      description: "",
+      sizes: [{ price: 100 }],
     },
     {
-      name: "v 60",
-      description: "قهوة فلتر مقطرة تعكس نكهات البن بوضوح ونقاوة.",
-      sizes: [{ label: "Double", price: 85 }],
+      name: "امريكانو",
+      description: "",
+      sizes: [{ price: 85 }],
     },
     {
-      name: "أمريكان",
-      description: "قهوة سوداء خفيفة تشبه القهوة المفلترة الأمريكية.",
-      sizes: [{ label: "Double", price: 60 }],
+      name: "قهوه عربي",
+      description: "",
+      sizes: [{ price: 70 }],
     },
   ];
 
@@ -104,13 +90,15 @@ export default function Coffee() {
 
         {items.map((item, i) => (
           <div key={i} className="relative">
-            <div className="nu-size-chips">
-              {item.sizes.map((size, idx) => (
-                <span key={idx} className="nu-size-chip">
-                  {size.label}
-                </span>
-              ))}
-            </div>
+            {item.sizes.length > 1 && item.sizes[0].label && (
+              <div className="nu-size-chips">
+                {item.sizes.map((size, idx) => (
+                  <span key={idx} className="nu-size-chip">
+                    {size.label}
+                  </span>
+                ))}
+              </div>
+            )}
 
             <div className="nu-card">
               <div className="nu-card__prices">

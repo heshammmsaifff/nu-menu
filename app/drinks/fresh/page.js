@@ -2,58 +2,63 @@
 
 import Link from "next/link";
 
-// قائمة FRESH من المنيو
+// page 4
 export default function Fresh() {
   const items = [
     {
-      name: "مانجا",
-      description: "عصير مانجا فريش بحلاوة طبيعية وقوام كثيف.",
-      sizes: [{ price: 85 }],
-    },
-    {
-      name: "فراولة / حليب",
-      description: "فراولة طازجة مع حليب بارد لمذاق كريمي منعش.",
-      sizes: [{ price: 85 }],
-    },
-    {
-      name: "جوافة / حليب",
-      description: "جوافة كريمية مع حليب تعطي قوامًا ناعمًا غنيًا.",
-      sizes: [{ price: 85 }],
-    },
-    {
-      name: "كيوي",
-      description: "عصير كيوي منعش بنكهة حامضة خفيفة.",
-      sizes: [{ price: 110 }],
-    },
-    {
-      name: "أفوكادو",
-      description: "أفوكادو كثيف وغني مثالي لعشاق القوام الكريمي.",
-      sizes: [{ price: 120 }],
-    },
-    {
-      name: "بلح",
-      description: "مشروب بلح بالحليب بطعم شرقي دافئ وحلو.",
-      sizes: [{ price: 95 }],
-    },
-    {
       name: "ليمون نعناع",
-      description: "ليمون فريش مع نعناع منعش وطعم متزن.",
-      sizes: [{ price: 65 }],
-    },
-    {
-      name: "موز",
-      description: "عصير موز بالحليب بقوام ثقيل ومغذي.",
-      sizes: [{ price: 75 }],
-    },
-    {
-      name: "برتقال",
-      description: "عصير برتقال فريش بطعم حمضي خفيف ومنعش.",
+      description: "",
       sizes: [{ price: 70 }],
     },
     {
-      name: "فواكه موسمية",
-      description: "مزيج من أفضل الفواكه المتوفرة في الموسم.",
+      name: "موز",
+      description: "",
+      sizes: [{ price: 75 }],
+    },
+    {
+      name: "مانجا",
+      description: "",
       sizes: [{ price: 85 }],
+    },
+    {
+      name: "بطيخ",
+      description: "",
+      sizes: [{ price: 85 }],
+    },
+    {
+      name: "فراولة",
+      description: "",
+      sizes: [{ price: 75 }],
+    },
+    {
+      name: "فراولة حليب",
+      description: "",
+      sizes: [{ price: 85 }],
+    },
+    {
+      name: "جوافة",
+      description: "",
+      sizes: [{ price: 75 }],
+    },
+    {
+      name: "جوافة حليب",
+      description: "",
+      sizes: [{ price: 85 }],
+    },
+    {
+      name: "بلح",
+      description: "",
+      sizes: [{ price: 95 }],
+    },
+    {
+      name: "كيوي",
+      description: "",
+      sizes: [{ price: 110 }],
+    },
+    {
+      name: "افوكادو",
+      description: "",
+      sizes: [{ price: 120 }],
     },
   ];
 

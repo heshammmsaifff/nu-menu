@@ -2,39 +2,48 @@
 
 import Link from "next/link";
 
-// EXTRA منيو
+// page 7
 export default function Extra() {
   const items = [
     {
-      name: "مكسرات + عسل",
-      description: "مزيج مكسرات طازجة مع عسل طبيعي لإضافة غنية.",
-      sizes: [{ price: 40 }],
-    },
-    {
-      name: "مكسرات",
-      description: "تشكيلة مكسرات تقدم كإضافة جانبية أو سناك.",
-      sizes: [{ price: 30 }],
-    },
-    {
-      name: "صوص",
-      description: "أنواع صوص مختلفة لتزيين المشروبات والحلويات.",
-      sizes: [{ price: 30 }],
-    },
-    {
-      name: "بوله",
+      name: "بولة ايس كريم",
       description: "سكوب إضافي من الآيس كريم حسب اختيارك.",
       sizes: [{ price: 25 }],
     },
     {
-      name: "طاجن أم على",
-      description:
-        "طاجن فخار يتحمل حرارة الفرن ويمنح الطواجن طعم وتسوية مثالية.",
+      name: "فخار تيك اواي",
+      description: "طاجن فخار تيك أواي للحفاظ على التسوية والحرارة.",
       sizes: [{ price: 20 }],
     },
     {
-      name: "قطع شوكليت",
+      name: "فلافور",
+      description: "إضافة نكهة للمشروبات أو الحلويات.",
+      sizes: [{ price: 30 }],
+    },
+    {
+      name: "مكسرات",
+      description: "تشكيلة مكسرات طازجة إضافية.",
+      sizes: [{ price: 20 }],
+    },
+    {
+      name: "عسل",
+      description: "إضافة عسل طبيعي خفيف وغني.",
+      sizes: [{ price: 20 }],
+    },
+    {
+      name: "قطع شوكلت",
       description: "قطع شوكليت إضافية لرفع جرعة الحلاوة.",
       sizes: [{ price: 35 }],
+    },
+    {
+      name: "فواكه",
+      description: "قطع فواكه طازجة إضافية.",
+      sizes: [{ price: 35 }],
+    },
+    {
+      name: "حليب",
+      description: "إضافة حليب طازج للمشروب.",
+      sizes: [{ price: 25 }],
     },
   ];
 

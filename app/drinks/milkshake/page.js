@@ -2,23 +2,24 @@
 
 import Link from "next/link";
 
-// قائمة MILKSHAKE من المنيو
+// page 5
 export default function Milkshake() {
   const items = [
+    
+    {
+      name: "بلوبيري",
+      description: "ميلك شيك بلوبيري فاكهي ولطيف.",
+      sizes: [{ price: 100 }],
+    },
     {
       name: "فانيليا",
       description: "ميلك شيك فانيليا كلاسيكي بقوام سميك وناعم.",
       sizes: [{ price: 100 }],
     },
     {
-      name: "شوكليت",
+      name: "شوكلت",
       description: "ميلك شيك شوكليت غني ومحبب للجميع.",
       sizes: [{ price: 100 }],
-    },
-    {
-      name: "لوتس",
-      description: "ميلك شيك بنكهة بسكويت اللوتس المميز.",
-      sizes: [{ price: 110 }],
     },
     {
       name: "فراولة",
@@ -31,29 +32,29 @@ export default function Milkshake() {
       sizes: [{ price: 100 }],
     },
     {
+      name: "لوتس",
+      description: "ميلك شيك بنكهة بسكويت اللوتس المميز.",
+      sizes: [{ price: 110 }],
+    },
+    {
+      name: "اوريو",
+      description: "ميلك شيك أوريو بقطع بسكويت مقرمشة.",
+      sizes: [{ price: 110 }],
+    },
+    {
       name: "كيوي",
       description: "ميلك شيك كيوي بنكهة منعشة وحمضية خفيفة.",
-      sizes: [{ price: 100 }],
+      sizes: [{ price: 110 }],
     },
     {
-      name: "شوكليت (سنكرز - كيت كات - جالكسي)",
+      name: "سنيكرز / كيت كات / جلاكسي",
       description: "ميلك شيك شوكليت مع قطع شوكليت مفضلة لديك.",
       sizes: [{ price: 125 }],
-    },
-    {
-      name: "أوريو",
-      description: "ميلك شيك أوريو بقطع بسكويت مقرمشة.",
-      sizes: [{ price: 105 }],
     },
     {
       name: "بستاشيو",
       description: "ميلك شيك فستق بقوام غني ونكهة مميزة.",
       sizes: [{ price: 110 }],
-    },
-    {
-      name: "بلوبيري",
-      description: "ميلك شيك بلوبيري فاكهي ولطيف.",
-      sizes: [{ price: 100 }],
     },
   ];
 

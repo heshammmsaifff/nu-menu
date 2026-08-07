@@ -2,48 +2,56 @@
 
 import Link from "next/link";
 
-// قائمة MATCHA من المنيو
+// page 2
 export default function Matcha() {
   const items = [
     {
-      name: "ماتشا كلاسيك لاتيه",
+      name: "ماتشا كلاسيك",
       description: "ماتشا بالحليب بقوام هادئ ونكهة متزنة.",
-      sizes: [{ price: 130 }],
+      sizes: [
+        { label: "M", price: 130 },
+        { label: "L", price: 145 },
+      ],
     },
     {
-      name: "جوز هند ماتشا",
+      name: "ماتشا جوز هند",
       description: "ماتشا مع حليب جوز الهند بلمسة استوائية ناعمة.",
-      sizes: [{ price: 140 }],
+      sizes: [
+        { label: "M", price: 145 },
+        { label: "L", price: 160 },
+      ],
     },
     {
-      name: "استروبيري ماتشا",
+      name: "ماتشا فاروله",
       description: "مزيج ماتشا مع فراولة لطعم فاكهي مميز.",
-      sizes: [{ price: 140 }],
+      sizes: [
+        { label: "M", price: 145 },
+        { label: "L", price: 169 },
+      ],
     },
     {
-      name: "مانجا ماتشا",
+      name: "ماتشا مانجا",
       description: "ماتشا مع مانجا لمزيج غني وحلو.",
-      sizes: [{ price: 140 }],
+      sizes: [
+        { label: "M", price: 145 },
+        { label: "L", price: 160 },
+      ],
     },
     {
-      name: "بلو كرزو ماتشا",
-      description: "ماتشا مع توت أزرق لنكهة مختلفة وجريئة.",
-      sizes: [{ price: 140 }],
-    },
-    {
-      name: "وايت موكا ماتشا",
-      description: "ماتشا مع وايت شوكليت لقوام ناعم وحلاوة مريحة.",
-      sizes: [{ price: 150 }],
-    },
-    {
-      name: "بستاشيو ماتشا",
+      name: "ماتشا بستاشيو",
       description: "ماتشا مع فستق لنكهة مميزة لعشاق البستاشيو.",
-      sizes: [{ price: 150 }],
+      sizes: [
+        { label: "M", price: 145 },
+        { label: "L", price: 160 },
+      ],
     },
     {
-      name: "NU ماتشا",
+      name: "ماتشا NU",
       description: "توقيع NU الخاص من الماتشا بنكهات متوازنة.",
-      sizes: [{ price: 160 }],
+      sizes: [
+        { label: "M", price: 150 },
+        { label: "L", price: 165 },
+      ],
     },
   ];
 
@@ -58,11 +66,24 @@ export default function Matcha() {
         </header>
 
         {items.map((item, i) => (
-          <div key={i}>
+          <div key={i} className="relative">
+            <div className="nu-size-chips">
+              {item.sizes.map((size, idx) => (
+                <span key={idx} className="nu-size-chip">
+                  {size.label}
+                </span>
+              ))}
+            </div>
+
             <div className="nu-card">
               <div className="nu-card__prices">
                 {item.sizes.map((size, idx) => (
-                  <span key={idx} className="nu-card__price">
+                  <span
+                    key={idx}
+                    className={`nu-card__price ${
+                      item.sizes.length === 1 ? "ml-[15px]" : ""
+                    }`}
+                  >
                     <span>{size.price}</span>L.E
                   </span>
                 ))}

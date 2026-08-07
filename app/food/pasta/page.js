@@ -2,38 +2,28 @@
 
 import Link from "next/link";
 
-// page 1
-export default function HotDrinks() {
+export default function Cocktails() {
   const items = [
     {
-      name: "شاي",
-      description: "",
-      sizes: [{ price: 30 }],
+      name: "ألفريدو",
+      description: "مكرونة بنّا - فراخ جريل - مشروم - صوص كريمي",
+      sizes: [{ price: 140 }],
     },
     {
-      name: "شاي كرك",
-      description: "",
-      sizes: [{ price: 70 }],
+      name: "نجرسكو",
+      description: "مكرونة فوتتشيني - فراخ جريل - صوص كريمي - تشيز",
+      sizes: [{ price: 160 }],
     },
     {
-      name: "ميكس اعشاب",
-      description: "",
-      sizes: [{ price: 55 }],
+      name: "بيستو",
+      description:
+        "مكرونة فوتتشيني - فراخ جريل - فلفل حار - صوص كريمي - صوص ريحان",
+      sizes: [{ price: 160 }],
     },
     {
-      name: "سحلب مكسرات",
-      description: "",
-      sizes: [{ price: 70 }],
-    },
-    {
-      name: "هوت سيدر",
-      description: "",
-      sizes: [{ price: 65 }],
-    },
-    {
-      name: "هوت شوكلت",
-      description: "",
-      sizes: [{ price: 105 }],
+      name: "اسباجتي بلونيز",
+      description: "مكرونة اسباجتي - لحم مفروم - ريد صوص",
+      sizes: [{ price: 120 }],
     },
   ];
 
@@ -41,9 +31,9 @@ export default function HotDrinks() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">• HOT DRINK •</h1>
-          <p className="nu-heading-sub">
-            مشروبات دافئة بطابع منزلي لترافقك في أجواء NU الهادئة.
+          <h1 className="nu-heading">~ PASTA ~</h1>
+          <p className="nu-heading-sub" dir="rtl">
+            باستا NU
           </p>
         </header>
 
@@ -57,7 +47,7 @@ export default function HotDrinks() {
                   </span>
                 ))}
               </div>
-              <div className="nu-card__content w-full" dir="rtl">
+              <div className="nu-card__content  w-full" dir="rtl">
                 <span className="nu-card__name">{item.name}</span>
                 {item.description && (
                   <span className="nu-card__description">
@@ -69,7 +59,7 @@ export default function HotDrinks() {
           </div>
         ))}
 
-        <Link href="/drinks" className="nu-back-button">
+        <Link href="/food" className="nu-back-button">
           العودة للخلف
         </Link>
       </div>

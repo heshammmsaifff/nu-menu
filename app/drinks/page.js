@@ -6,11 +6,10 @@ import Link from "next/link";
 export default function Drinks() {
   const categories = [
     {
-      name: "Break Fast",
-      slug: "croissant ",
+      name: "Hot Drink",
+      slug: "hotdrinks",
       image: null,
-      description:
-        "كرواسو طازج وهش بطبقات ذهبية مقرمشة من الخارج وناعمة من الداخل، مثالي للإفطار أو مع القهوة.",
+      description: "مشروبات دافئة وأعشاب للحظات هادئة ومريحة.",
     },
     {
       name: "Hot Coffee",
@@ -19,10 +18,16 @@ export default function Drinks() {
       description: "قهوة ساخنة كلاسيكية ومختصة لعشاق النكهات العميقة.",
     },
     {
-      name: "Hot Drinks",
-      slug: "hotdrinks",
+      name: "Ice Coffee",
+      slug: "icecoffee",
       image: null,
-      description: "مشروبات دافئة وأعشاب  للحظات هادئة ومريحة.",
+      description: "قهوة باردة ومنعشة بنكهات متنوعة لمحبي التجديد.",
+    },
+    {
+      name: "V60 Speciality",
+      slug: "v60",
+      image: null,
+      description: "قهوة V60 مختصة بنكهات فاخرة ومحاصيل عالمية.",
     },
     {
       name: "Matcha",
@@ -31,16 +36,10 @@ export default function Drinks() {
       description: "مشروبات ماتشا فاخرة بنكهات خاصة ولمسات عصرية.",
     },
     {
-      name: "Ice Coffee",
-      slug: "icecoffee",
+      name: "NU Corner",
+      slug: "nucorner",
       image: null,
-      description: "قهوة باردة ومنعشة بنكهات متنوعة لمحبي التجديد.",
-    },
-    {
-      name: "Fresh",
-      slug: "fresh",
-      image: null,
-      description: "عصائر فريش من فواكه موسمية وطعم طبيعي منعش.",
+      description: "مشروبات وحلويات خاصة بتوقيع وتوليفة NU الفاخرة.",
     },
     {
       name: "Frappe",
@@ -49,22 +48,16 @@ export default function Drinks() {
       description: "مشروبات فرابيه كريمية بلمسة قهوة مميزة.",
     },
     {
+      name: "Fresh",
+      slug: "fresh",
+      image: null,
+      description: "عصائر فريش من فواكه موسمية وطعم طبيعي منعش.",
+    },
+    {
       name: "Milk Shake",
       slug: "milkshake",
       image: null,
       description: "ميلك شيك كثيف بنكهات شوكليت، فانيليا وفواكه.",
-    },
-    {
-      name: "Cocktails",
-      slug: "cocktails",
-      image: null,
-      description: "كوكتيلات فواكه متوازنة تجمع أكثر من نكهة في كوب واحد.",
-    },
-    {
-      name: "Smoothie",
-      slug: "smoothie",
-      image: null,
-      description: "سموثي فواكه كريمي ومنعش بتركيبات مميزة.",
     },
     {
       name: "Soft Drink",
@@ -73,34 +66,16 @@ export default function Drinks() {
       description: "مشروبات غازية ومثلجة بلمسات عصرية.",
     },
     {
-      name: "Fruit Salad",
-      slug: "fruitsalad",
-      image: null,
-      description: "سلطة فواكه موسمية تقدم بتقديم أنيق.",
-    },
-    {
-      name: "Stick Fruit",
-      slug: "stickfruit",
-      image: null,
-      description: "فواكه على أعواد بطريقة مرحة وخفيفة للمشاركة.",
-    },
-    {
-      name: "Waffles",
-      slug: "waffles",
-      image: null,
-      description: "وافلز مقرمش مع صوصات وتوبينج غني.",
-    },
-    {
       name: "Dessert",
       slug: "dessert",
       image: null,
       description: "حلويات كلاسيكية وحديثة تناسب كل الأذواق.",
     },
     {
-      name: "Ice Cream",
-      slug: "icecream",
+      name: "Waffles",
+      slug: "waffles",
       image: null,
-      description: "آيس كريم غني يقدم بنكهات مميزة.",
+      description: "وافلز مقرمش مع صوصات وتوبينج غني.",
     },
     {
       name: "Extra",
