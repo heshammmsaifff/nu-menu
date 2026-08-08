@@ -24,7 +24,7 @@ export default function IceCream() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">• ICE CREAM •</h1>
           <p className="nu-heading-sub">
-            آيس كريم غني يقدم مع توبينج مميز من NU.
+            آيس كريم غني يقدم مع توبينج مميز من nu.
           </p>
         </header>
 

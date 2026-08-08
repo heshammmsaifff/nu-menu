@@ -22,7 +22,7 @@ export default function Cocktails() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">~ SALAD ~</h1>
           <p className="nu-heading-sub" dir="rtl">
-            سلطات NU
+            سلطات nu
           </p>
         </header>
 

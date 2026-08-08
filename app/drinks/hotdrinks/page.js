@@ -43,7 +43,7 @@ export default function HotDrinks() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">• HOT DRINK •</h1>
           <p className="nu-heading-sub">
-            مشروبات دافئة بطابع منزلي لترافقك في أجواء NU الهادئة.
+            مشروبات دافئة بطابع منزلي لترافقك في أجواء nu الهادئة.
           </p>
         </header>
 

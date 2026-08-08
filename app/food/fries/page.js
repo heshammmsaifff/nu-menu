@@ -27,7 +27,7 @@ export default function Cocktails() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">~ FRIES ~</h1>
           <p className="nu-heading-sub" dir="rtl">
-            فرايز NU
+            فرايز nu
           </p>
         </header>
 

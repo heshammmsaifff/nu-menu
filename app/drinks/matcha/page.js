@@ -46,8 +46,8 @@ export default function Matcha() {
       ],
     },
     {
-      name: "ماتشا NU",
-      description: "توقيع NU الخاص من الماتشا بنكهات متوازنة.",
+      name: "ماتشا nu",
+      description: "توقيع nu الخاص من الماتشا بنكهات متوازنة.",
       sizes: [
         { label: "M", price: 150 },
         { label: "L", price: 165 },

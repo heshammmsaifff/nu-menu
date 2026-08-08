@@ -31,8 +31,8 @@ export default function Cocktails() {
       sizes: [{ price: 110 }],
     },
     {
-      name: "NU",
-      description: "كوكتيل توقيع NU بمزيج خاص من الفواكه.",
+      name: "nu",
+      description: "كوكتيل توقيع nu بمزيج خاص من الفواكه.",
       sizes: [{ price: 120 }],
     },
   ];
@@ -43,7 +43,7 @@ export default function Cocktails() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">~ COCKTAILS ~</h1>
           <p className="nu-heading-sub" dir="rtl">
-            كوكتيلات فواكه بطابع NU الخاص ولمسات متوازنة في كل كوب.
+            كوكتيلات فواكه بطابع nu الخاص ولمسات متوازنة في كل كوب.
           </p>
         </header>
 

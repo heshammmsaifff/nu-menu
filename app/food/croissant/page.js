@@ -59,7 +59,7 @@ export default function HotDrinks() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">• Croissant •</h1>
           <p className="nu-heading-sub" dir="rtl">
-            فطار NU.
+            فطار nu.
           </p>
         </header>
 

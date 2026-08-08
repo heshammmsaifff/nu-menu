@@ -47,7 +47,7 @@ export default function Cocktails() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">~ CREPE ~</h1>
           <p className="nu-heading-sub" dir="rtl">
-            كريب NU
+            كريب nu
           </p>
         </header>
 

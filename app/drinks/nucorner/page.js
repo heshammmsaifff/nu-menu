@@ -41,7 +41,7 @@ export default function NuCorner() {
       sizes: [{ price: 120 }],
     },
     {
-      name: "Mix NU",
+      name: "Mix nu",
       description: "",
       sizes: [{ price: 120 }],
     },
@@ -51,9 +51,9 @@ export default function NuCorner() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">• NU CORNER •</h1>
+          <h1 className="nu-heading">• nu CORNER •</h1>
           <p className="nu-heading-sub">
-            مشروبات وحلويات خاصة بتوقيع وتوليفة NU الفاخرة.
+            مشروبات وحلويات خاصة بتوقيع وتوليفة nu الفاخرة.
           </p>
         </header>
 

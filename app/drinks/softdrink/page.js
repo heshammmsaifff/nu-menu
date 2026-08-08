@@ -28,7 +28,7 @@ export default function SoftDrink() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">• SOFT DRINK •</h1>
           <p className="nu-heading-sub">
-            مشروبات غازية ومثلجة بنكهات عصرية ولمسات خاصة من NU.
+            مشروبات غازية ومثلجة بنكهات عصرية ولمسات خاصة من nu.
           </p>
         </header>
 

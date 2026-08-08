@@ -21,8 +21,8 @@ export default function StickFruit() {
       sizes: [{ price: 50 }],
     },
     {
-      name: "ستيك NU",
-      description: "تقديم خاص من NU مزيج بين الفواكه والحلويات على أعواد.",
+      name: "ستيك nu",
+      description: "تقديم خاص من nu مزيج بين الفواكه والحلويات على أعواد.",
       sizes: [{ price: 60 }],
     },
   ];

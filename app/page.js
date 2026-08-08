@@ -129,29 +129,28 @@ export default function Home() {
               className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
               dir="rtl"
             >
-              اكتشف قائمة NU المختارة بعناية من القهوة والمشروبات والحلويات،
+              اكتشف قائمة nu المختارة بعناية من القهوة والمشروبات والحلويات،
               تجربة بسيطة بطعم فاخر.
             </p>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <Link href="/food">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="nu-button-primary group relative overflow-hidden"
-              >
-                <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
-                  Food Menu
-                </span>
-              </motion.button>
-            </Link>
+            <button
+              disabled
+              className="nu-button-primary group relative overflow-hidden opacity-60 cursor-not-allowed grayscale-[0.4] flex flex-col items-center justify-center"
+            >
+              <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
+                Food Menu
+              </span>
+              <span className="relative z-10 text-[11px] font-semibold text-[#e2ba5b] tracking-[0.2em] uppercase">
+                (Stay Tuned)
+              </span>
+            </button>
 
             <p
               className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
               dir="rtl"
             >
-              اكتشف قائمة NU المميزة من الأطعمة والوجبات،
-              تجربة بسيطة بطعم فاخر.
+              قريباً.. stay tuned ☕✨
             </p>
           </div>
 

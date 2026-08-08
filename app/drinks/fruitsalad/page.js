@@ -18,7 +18,7 @@ export default function FruitSalad() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">• FRUIT SALAD •</h1>
           <p className="nu-heading-sub">
-            طبق فواكه موسمية طازجة بتقديم أنيق من NU.
+            طبق فواكه موسمية طازجة بتقديم أنيق من nu.
           </p>
         </header>
 

@@ -51,8 +51,8 @@ export default function Smoothie() {
       sizes: [{ price: 85 }],
     },
     {
-      name: "nU",
-      description: "سموثي توقيع NU بمزيج خاص من الفواكه.",
+      name: "nu",
+      description: "سموثي توقيع nu بمزيج خاص من الفواكه.",
       sizes: [{ price: 110 }],
     },
   ];

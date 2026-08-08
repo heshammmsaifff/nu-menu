@@ -68,7 +68,7 @@ export default function Coffee() {
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
           <h1 className="nu-heading">~ ICE Coffee ~</h1>
-          <p className="nu-heading-sub">آيس كوفي NU.</p>
+          <p className="nu-heading-sub">آيس كوفي nu.</p>
         </header>
 
         {items.map((item, i) => (

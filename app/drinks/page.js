@@ -36,10 +36,10 @@ export default function Drinks() {
       description: "مشروبات ماتشا فاخرة بنكهات خاصة ولمسات عصرية.",
     },
     {
-      name: "NU Corner",
+      name: "nu Corner",
       slug: "nucorner",
       image: null,
-      description: "مشروبات وحلويات خاصة بتوقيع وتوليفة NU الفاخرة.",
+      description: "مشروبات وحلويات خاصة بتوقيع وتوليفة nu الفاخرة.",
     },
     {
       name: "Frappe",
@@ -92,7 +92,7 @@ export default function Drinks() {
           <h1 className="nu-heading">Menu</h1>
           <p className="nu-heading-sub">
             اختر ما يناسب مزاجك في أي وقت من اليوم، من فطار شهي، قهوة ساخنة،
-            مشروبات مميزة، وحلويات NU.
+            مشروبات مميزة، وحلويات nu.
           </p>
         </header>
 

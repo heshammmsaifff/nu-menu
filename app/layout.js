@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NU",
-  description: "NU Menu",
+  title: "nu",
+  description: "nu Menu",
 };
 
 export default function RootLayout({ children }) {

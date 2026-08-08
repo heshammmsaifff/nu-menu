@@ -33,7 +33,7 @@ export default function Cocktails() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">~ PASTA ~</h1>
           <p className="nu-heading-sub" dir="rtl">
-            باستا NU
+            باستا nu
           </p>
         </header>
 

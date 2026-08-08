@@ -60,7 +60,7 @@ export default function Cocktails() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">~ PIZZA ~</h1>
           <p className="nu-heading-sub" dir="rtl">
-            بيتزا NU
+            بيتزا nu
           </p>
           <span className="text-xs text-amber-900 font-semibold mt-1 block" dir="rtl">
             * البيتزا كلها أطراف جبن *

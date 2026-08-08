@@ -53,7 +53,7 @@ export default function Extra() {
         <header className="text-center mb-2">
           <h1 className="nu-heading">• EXTRA •</h1>
           <p className="nu-heading-sub">
-            إضافات وحلويات جانبية تكمل تجربتك مع مشروبات NU.
+            إضافات وحلويات جانبية تكمل تجربتك مع مشروبات nu.
           </p>
         </header>
 
