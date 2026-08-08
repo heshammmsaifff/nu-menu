@@ -36,7 +36,7 @@ export default function Waffles() {
       sizes: [{ price: 85 }],
     },
     {
-      name: "Family",
+      name: "NU Family",
       description: "وافلز عائلي متنوع بالتوبينج والصوصات.",
       sizes: [{ price: 160 }],
     },

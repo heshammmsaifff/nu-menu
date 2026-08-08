@@ -20,8 +20,20 @@ export default function Home() {
   const phoneNumber = "01067674340";
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowMain(true), 3500);
-    return () => clearTimeout(timer);
+    const handleLoad = () => {
+      setShowMain(true);
+    };
+
+    if (document.readyState === "complete") {
+      setShowMain(true);
+    } else {
+      window.addEventListener("load", handleLoad);
+      const fallbackTimer = setTimeout(handleLoad, 1000);
+      return () => {
+        window.removeEventListener("load", handleLoad);
+        clearTimeout(fallbackTimer);
+      };
+    }
   }, []);
 
   const copyToClipboard = () => {

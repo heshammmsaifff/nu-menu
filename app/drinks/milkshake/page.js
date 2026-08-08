@@ -5,7 +5,16 @@ import Link from "next/link";
 // page 5
 export default function Milkshake() {
   const items = [
-    
+    {
+      name: "ميلك كراميل",
+      description: "ميلك شيك بنكهة الكراميل الغنية والقوام الكريمي السلس.",
+      sizes: [{ price: 100 }],
+    },
+    {
+      name: "ميلك كوفي",
+      description: "ميلك شيك بنكهة القهوة المميزة والقوام الكريمي.",
+      sizes: [{ price: 110 }],
+    },
     {
       name: "بلوبيري",
       description: "ميلك شيك بلوبيري فاكهي ولطيف.",

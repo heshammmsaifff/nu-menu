@@ -22,11 +22,11 @@ export default function Matcha() {
       ],
     },
     {
-      name: "ماتشا فاروله",
+      name: "ماتشا فراولة",
       description: "مزيج ماتشا مع فراولة لطعم فاكهي مميز.",
       sizes: [
         { label: "M", price: 145 },
-        { label: "L", price: 169 },
+        { label: "L", price: 160 },
       ],
     },
     {

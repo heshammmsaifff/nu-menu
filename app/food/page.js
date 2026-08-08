@@ -7,9 +7,21 @@ export default function Food() {
   const categories = [
     {
       name: "Break Fast",
-      slug: "croissant ",
+      slug: "croissant",
       image: null,
       description: "فطار NU.",
+    },
+    {
+      name: "Soup",
+      slug: "soup",
+      image: null,
+      description: "شوربة NU.",
+    },
+    {
+      name: "Salad",
+      slug: "salad",
+      image: null,
+      description: "سلطات NU.",
     },
     {
       name: "Pizza",
@@ -27,7 +39,7 @@ export default function Food() {
       name: "Pasta",
       slug: "pasta",
       image: null,
-      description: "كريب NU.",
+      description: "باستا NU.",
     },
     {
       name: "Fries",

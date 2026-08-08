@@ -9,47 +9,47 @@ export default function HotDrinks() {
       name: "فطار انجليزي",
       description:
         "قطعتين روزبيف - قطعتين تركي مدخن - بيض مسلوق - عسل نحل - زبدة",
-      sizes: [{ price: 40 }],
+      sizes: [{ price: 100 }],
     },
     {
       name: "كرواسو سادة",
       description: "",
-      sizes: [{ price: 40 }],
+      sizes: [{ price: 45 }],
     },
     {
       name: "كرواسو تركي",
       description: "شريحة تركي + خس + شيدر + مايونيز أو مستردة",
-      sizes: [{ price: 80 }],
+      sizes: [{ price: 85 }],
     },
     {
       name: "كرواسو رومي",
       description: "رومي + خس + مايونيز",
-      sizes: [{ price: 60 }],
+      sizes: [{ price: 65 }],
     },
     {
       name: "كرواسو شيدر",
       description: "شيدر + خس + مايونيز",
-      sizes: [{ price: 60 }],
+      sizes: [{ price: 65 }],
     },
     {
       name: "كرواسو (نوتيلا / لوتس / وايت شوكليت)",
       description: "",
-      sizes: [{ price: 55 }],
+      sizes: [{ price: 60 }],
     },
     {
       name: "كرواسو عسل",
       description: "",
-      sizes: [{ price: 50 }],
+      sizes: [{ price: 55 }],
     },
     {
       name: "كرواسو بستاشيو",
       description: "",
-      sizes: [{ price: 60 }],
+      sizes: [{ price: 65 }],
     },
     {
       name: "كرواسو ميكس جبن",
       description: "شيدر + موتزريلا + رومي",
-      sizes: [{ price: 60 }],
+      sizes: [{ price: 65 }],
     },
   ];
 
@@ -69,7 +69,7 @@ export default function HotDrinks() {
               <div className="nu-card__prices">
                 {item.sizes.map((size, idx) => (
                   <span key={idx} className="nu-card__price">
-                    <span>{size.price + 5}</span>L.E
+                    <span>{size.price}</span>L.E
                   </span>
                 ))}
               </div>

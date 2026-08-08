@@ -9,56 +9,56 @@ export default function Coffee() {
       name: "لاتيه",
       description: "",
       sizes: [
-        { label: "S", price: 85 },
-        { label: "D", price: 105 },
+        { label: "M", price: 85 },
+        { label: "L", price: 105 },
       ],
     },
     {
       name: "سبانيش لاتيه",
       description: "",
       sizes: [
-        { label: "S", price: 95 },
-        { label: "D", price: 110 },
+        { label: "M", price: 95 },
+        { label: "L", price: 110 },
       ],
     },
     {
       name: "موكا",
       description: "",
       sizes: [
-        { label: "S", price: 95 },
-        { label: "D", price: 110 },
+        { label: "M", price: 95 },
+        { label: "L", price: 110 },
       ],
     },
     {
       name: "كراميل ميكاتو",
       description: "",
       sizes: [
-        { label: "S", price: 95 },
-        { label: "D", price: 110 },
+        { label: "M", price: 95 },
+        { label: "L", price: 110 },
       ],
     },
     {
       name: "مليونير موكا",
       description: "",
       sizes: [
-        { label: "S", price: 100 },
-        { label: "D", price: 115 },
+        { label: "M", price: 100 },
+        { label: "L", price: 115 },
       ],
     },
     {
       name: "بستاشيو لاتيه",
       description: "",
       sizes: [
-        { label: "S", price: 95 },
-        { label: "D", price: 110 },
+        { label: "M", price: 95 },
+        { label: "L", price: 110 },
       ],
     },
     {
       name: "سولتد كراميل",
       description: "",
       sizes: [
-        { label: "S", price: 90 },
-        { label: "D", price: 105 },
+        { label: "M", price: 90 },
+        { label: "L", price: 105 },
       ],
     },
   ];
