@@ -134,25 +134,24 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <div className="relative group">
-              <button
-                disabled
-                className="nu-button-primary opacity-75 cursor-not-allowed relative overflow-hidden flex flex-col items-center justify-center py-2"
+            <Link href="/food">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="nu-button-primary group relative overflow-hidden"
               >
-                <span className="relative z-10 text-[16px] md:text-[16px] font-bold tracking-[0.15em] uppercase opacity-90">
+                <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
                   Food Menu
                 </span>
-                <span className="relative z-10 text-[12px] font-extrabold text-[#e2ba5b] tracking-widest uppercase mt-0.5">
-                  STAY TUNED
-                </span>
-              </button>
-            </div>
+              </motion.button>
+            </Link>
 
             <p
               className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
               dir="rtl"
             >
-              قريباً... انتظروا قائمة أطعمة NU المميزة!
+              اكتشف قائمة NU المميزة من الأطعمة والوجبات،
+              تجربة بسيطة بطعم فاخر.
             </p>
           </div>
 
