@@ -39,6 +39,11 @@ export default function Cocktails() {
       description: "جبنة مودزريلا - كريسبي حار - هالبينو - سويت شيلي",
       sizes: [{ price: 150 }],
     },
+    {
+      name: "فاهيتا",
+      description: "",
+      sizes: [{ price: 150 }],
+    },
   ];
 
   return (

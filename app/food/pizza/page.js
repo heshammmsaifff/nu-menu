@@ -62,7 +62,10 @@ export default function Cocktails() {
           <p className="nu-heading-sub" dir="rtl">
             بيتزا nu
           </p>
-          <span className="text-xs text-amber-900 font-semibold mt-1 block" dir="rtl">
+          <span
+            className="text-xs text-amber-900 font-semibold mt-1 block"
+            dir="rtl"
+          >
             * البيتزا كلها أطراف جبن *
           </span>
         </header>
