@@ -150,7 +150,7 @@ export default function Home() {
               className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
               dir="rtl"
             >
-              قريباً.. stay tuned ☕✨
+              قريباً.. stay tuned
             </p>
           </div>
 
