@@ -16,7 +16,7 @@ export default function NuCorner() {
       sizes: [{ price: 110 }],
     },
     {
-      name: "مكس وينز",
+      name: "مكس وينس",
       description: "",
       sizes: [{ price: 110 }],
     },
