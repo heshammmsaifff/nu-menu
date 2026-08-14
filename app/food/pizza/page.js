@@ -66,7 +66,7 @@ export default function Cocktails() {
             className="text-xs text-amber-900 font-semibold mt-1 block"
             dir="rtl"
           >
-            * البيتزا كلها أطراف جبن *
+            * أطراف محشية بالجبن على جميع أنواع البيتزا *
           </span>
         </header>
 

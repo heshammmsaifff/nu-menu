@@ -6,7 +6,7 @@ export default function Cocktails() {
   const items = [
     {
       name: "كريسبي (حار - بارد)",
-      description: "جبنة مودزريلا - كريسبي حار - كاتشب - مايونيز - كابوتشا",
+      description: "جبنة مودزريلا - كريسبي - كاتشب - مايونيز - كابوتشا",
       sizes: [{ price: 140 }],
     },
 
@@ -37,7 +37,7 @@ export default function Cocktails() {
     },
     {
       name: "فاهيتا",
-      description: "",
+      description: "فراخ مكسيكي - زيتون - جبنة مودزريلا",
       sizes: [{ price: 140 }],
     },
   ];
