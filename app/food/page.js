@@ -53,6 +53,12 @@ export default function Food() {
       image: null,
       description: "مقبلات nu.",
     },
+    {
+      name: "Extra",
+      slug: "extra",
+      image: null,
+      description: "إضافات nu.",
+    },
   ];
 
   return (

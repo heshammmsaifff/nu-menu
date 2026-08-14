@@ -7,17 +7,17 @@ export default function Cocktails() {
     {
       name: "فرايز",
       description: "",
-      sizes: [{ price: 40 }],
+      sizes: [{ price: 50 }],
     },
     {
       name: "فرايز تشيلي",
       description: "",
-      sizes: [{ price: 55 }],
+      sizes: [{ price: 65 }],
     },
     {
       name: "فرايز تشيز",
       description: "",
-      sizes: [{ price: 55 }],
+      sizes: [{ price: 60 }],
     },
   ];
 

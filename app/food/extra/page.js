@@ -5,40 +5,29 @@ import Link from "next/link";
 export default function Cocktails() {
   const items = [
     {
-      name: "كريسبي (حار - بارد)",
-      description: "جبنة مودزريلا - كريسبي حار - كاتشب - مايونيز - كابوتشا",
-      sizes: [{ price: 140 }],
-    },
-
-    {
-      name: "شيش طاووق",
-      description: "جبنة مودزريلا - شيش مشوي - بيج صوص - كاتشب - مايونيز",
-      sizes: [{ price: 150 }],
-    },
-    {
-      name: "ميكس فراخ",
-      description: "جبنة مودزريلا - بانيه - ستربس - شيش - كاتشب - مايونيز",
-      sizes: [{ price: 160 }],
-    },
-    {
-      name: "تشكن فيلا",
-      description: "مشوي صدور - مشروم - جبنة كيري - صوص رانش - جبنة مودزريلا",
-      sizes: [{ price: 140 }],
-    },
-    {
-      name: "ميكس لحوم",
-      description: "جبنة مودزريلا - مفروم - سلامي - هوت دوج - روزبيف",
-      sizes: [{ price: 180 }],
-    },
-    {
-      name: "هيدرا",
-      description: "جبنة مودزريلا - كريسبي حار - هالبينو - سويت شيلي",
-      sizes: [{ price: 150 }],
-    },
-    {
-      name: "فاهيتا",
+      name: "فراخ",
       description: "",
-      sizes: [{ price: 140 }],
+      sizes: [{ price: 40 }],
+    },
+    {
+      name: "لحم",
+      description: "",
+      sizes: [{ price: 50 }],
+    },
+    {
+      name: "جبنة",
+      description: "",
+      sizes: [{ price: 30 }],
+    },
+    {
+      name: "صوص",
+      description: "",
+      sizes: [{ price: 20 }],
+    },
+    {
+      name: "هالبينو",
+      description: "",
+      sizes: [{ price: 20 }],
     },
   ];
 
@@ -46,9 +35,9 @@ export default function Cocktails() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">~ CREPE ~</h1>
+          <h1 className="nu-heading">~ SOUP ~</h1>
           <p className="nu-heading-sub" dir="rtl">
-            كريب nu
+            إضافات nu
           </p>
         </header>
 

@@ -7,12 +7,12 @@ export default function Cocktails() {
     {
       name: "ألفريدو",
       description: "مكرونة بنّا - فراخ جريل - مشروم - صوص كريمي",
-      sizes: [{ price: 160 }],
+      sizes: [{ price: 140 }],
     },
     {
       name: "نجرسكو",
       description: "مكرونة فوتتشيني - فراخ جريل - صوص كريمي - تشيز",
-      sizes: [{ price: 180 }],
+      sizes: [{ price: 160 }],
     },
     {
       name: "بيستو",
@@ -23,7 +23,7 @@ export default function Cocktails() {
     {
       name: "اسباجتي بلونيز",
       description: "مكرونة اسباجتي - لحم مفروم - ريد صوص",
-      sizes: [{ price: 130 }],
+      sizes: [{ price: 120 }],
     },
   ];
 

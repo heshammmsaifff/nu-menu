@@ -111,19 +111,16 @@ export default function Home() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="flex flex-col items-center gap-10 text-center z-10 px-6"
         >
-          {/* MENU SECTION */}
+          {/* DRINKS SECTION (DISABLED) */}
           <div className="flex flex-col items-center gap-4">
-            <Link href="/drinks">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="nu-button-primary group relative overflow-hidden"
-              >
-                <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
-                  Drinks & Dessert Menu
-                </span>
-              </motion.button>
-            </Link>
+            <button
+              disabled
+              className="nu-button-primary group relative overflow-hidden opacity-60 cursor-not-allowed grayscale-[0.4] flex flex-col items-center justify-center"
+            >
+              <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
+                Drinks & Dessert Menu
+              </span>
+            </button>
 
             <p
               className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
@@ -133,48 +130,29 @@ export default function Home() {
               تجربة بسيطة بطعم فاخر.
             </p>
           </div>
+
+          {/* FOOD SECTION (ENABLED) */}
           <div className="flex flex-col items-center gap-4">
-            <button
-              disabled
-              className="nu-button-primary group relative overflow-hidden opacity-60 cursor-not-allowed grayscale-[0.4] flex flex-col items-center justify-center"
-            >
-              <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
-                Food Menu
-              </span>
-              <span className="relative z-10 text-[11px] font-semibold text-[#e2ba5b] tracking-[0.2em] uppercase">
-                (Stay Tuned)
-              </span>
-            </button>
-
-            <p
-              className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
-              dir="rtl"
-            >
-              قريباً.. stay tuned
-            </p>
-          </div>
-
-          {/* GAME SECTION */}
-          {/* <div className="flex flex-col items-center gap-4">
-            <Link href="/game">
+            <Link href="/food">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="nu-button-primary bg-opacity-80"
+                className="nu-button-primary group relative overflow-hidden"
               >
-                <span className="text-[20px] md:text-[24px] font-semibold tracking-[0.14em] uppercase">
-                  Play a Game
+                <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
+                  Food Menu
                 </span>
               </motion.button>
             </Link>
 
             <p
-              className="max-w-sm text-sm md:text-base text-white/90 drop-shadow-md"
+              className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"
               dir="rtl"
             >
-              لعبة خفيفة وسريعة 🍔 امسك أكبر عدد من الأكلات خلال 30 ثانية
+              تشكيلة فاخرة من أشهى أنواع البيتزا، الباستا الغنية، والكريب
+              المميز.. صُنعت بحب لتمنحك تجربة استثنائية في كل قضمة.
             </p>
-          </div> */}
+          </div>
 
           {/* CONTACT BUTTON */}
           <motion.button

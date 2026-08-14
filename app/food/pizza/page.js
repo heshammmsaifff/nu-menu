@@ -7,7 +7,7 @@ export default function Cocktails() {
     {
       name: "مارجريتا",
       description: "صوص بيتزا - جبنة مودزريلا",
-      sizes: [{ price: 160 }],
+      sizes: [{ price: 140 }],
     },
     {
       name: "ميكس تشيز",
