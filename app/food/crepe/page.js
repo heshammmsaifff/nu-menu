@@ -38,7 +38,7 @@ export default function Cocktails() {
     {
       name: "فاهيتا",
       description: "فراخ مكسيكي - زيتون - جبنة مودزريلا",
-      sizes: [{ price: 160 }],
+      sizes: [{ price: 170 }],
     },
   ];
 
