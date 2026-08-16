@@ -35,7 +35,7 @@ export default function Cocktails() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">~ SOUP ~</h1>
+          <h1 className="nu-heading">~ EXTRA ~</h1>
           <p className="nu-heading-sub" dir="rtl">
             إضافات nu
           </p>

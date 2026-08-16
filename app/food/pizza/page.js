@@ -7,7 +7,7 @@ export default function Cocktails() {
     {
       name: "مارجريتا",
       description: "صوص بيتزا - جبنة مودزريلا",
-      sizes: [{ price: 140 }],
+      sizes: [{ price: 165 }],
     },
     {
       name: "ميكس تشيز",
@@ -50,7 +50,7 @@ export default function Cocktails() {
     {
       name: "مكس لحوم",
       description: "صوص بيتزا - هوت دوج - روزبيف - مفروم - سلامي",
-      sizes: [{ price: 270 }],
+      sizes: [{ price: 260 }],
     },
   ];
 

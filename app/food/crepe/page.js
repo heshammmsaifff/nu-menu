@@ -7,38 +7,38 @@ export default function Cocktails() {
     {
       name: "كريسبي (حار - بارد)",
       description: "جبنة مودزريلا - كريسبي - كاتشب - مايونيز - كابوتشا",
-      sizes: [{ price: 140 }],
+      sizes: [{ price: 160 }],
     },
 
     {
       name: "شيش طاووق",
       description: "جبنة مودزريلا - شيش مشوي - بيج صوص - كاتشب - مايونيز",
-      sizes: [{ price: 150 }],
+      sizes: [{ price: 170 }],
     },
     {
       name: "ميكس فراخ",
       description: "جبنة مودزريلا - بانيه - ستربس - شيش - كاتشب - مايونيز",
-      sizes: [{ price: 160 }],
+      sizes: [{ price: 175 }],
     },
     {
       name: "تشكن فيلا",
       description: "مشوي صدور - مشروم - جبنة كيري - صوص رانش - جبنة مودزريلا",
-      sizes: [{ price: 140 }],
+      sizes: [{ price: 185 }],
     },
     {
       name: "ميكس لحوم",
       description: "جبنة مودزريلا - مفروم - سلامي - هوت دوج - روزبيف",
-      sizes: [{ price: 180 }],
+      sizes: [{ price: 185 }],
     },
     {
       name: "هيدرا",
       description: "جبنة مودزريلا - كريسبي حار - هالبينو - سويت شيلي",
-      sizes: [{ price: 150 }],
+      sizes: [{ price: 175 }],
     },
     {
       name: "فاهيتا",
       description: "فراخ مكسيكي - زيتون - جبنة مودزريلا",
-      sizes: [{ price: 140 }],
+      sizes: [{ price: 160 }],
     },
   ];
 
