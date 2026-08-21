@@ -9,48 +9,48 @@ export default function Matcha() {
       name: "ماتشا كلاسيك",
       description: "ماتشا بالحليب بقوام هادئ ونكهة متزنة.",
       sizes: [
-        { label: "M", price: 130 },
-        { label: "L", price: 145 },
+        { label: "M", price: 140 },
+        { label: "L", price: 160 },
       ],
     },
     {
       name: "ماتشا جوز هند",
       description: "ماتشا مع حليب جوز الهند بلمسة استوائية ناعمة.",
       sizes: [
-        { label: "M", price: 145 },
-        { label: "L", price: 160 },
+        { label: "M", price: 150 },
+        { label: "L", price: 170 },
       ],
     },
     {
       name: "ماتشا فراولة",
       description: "مزيج ماتشا مع فراولة لطعم فاكهي مميز.",
       sizes: [
-        { label: "M", price: 145 },
-        { label: "L", price: 160 },
+        { label: "M", price: 150 },
+        { label: "L", price: 170 },
       ],
     },
     {
       name: "ماتشا مانجا",
       description: "ماتشا مع مانجا لمزيج غني وحلو.",
       sizes: [
-        { label: "M", price: 145 },
-        { label: "L", price: 160 },
+        { label: "M", price: 159 },
+        { label: "L", price: 170 },
       ],
     },
     {
       name: "ماتشا بستاشيو",
       description: "ماتشا مع فستق لنكهة مميزة لعشاق البستاشيو.",
       sizes: [
-        { label: "M", price: 145 },
-        { label: "L", price: 160 },
+        { label: "M", price: 150 },
+        { label: "L", price: 170 },
       ],
     },
     {
       name: "ماتشا nu",
       description: "توقيع nu الخاص من الماتشا بنكهات متوازنة.",
       sizes: [
-        { label: "M", price: 150 },
-        { label: "L", price: 165 },
+        { label: "M", price: 160 },
+        { label: "L", price: 180 },
       ],
     },
   ];

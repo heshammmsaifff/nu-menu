@@ -45,6 +45,16 @@ export default function Extra() {
       description: "إضافة حليب طازج للمشروب.",
       sizes: [{ price: 25 }],
     },
+    {
+      name: "كريم شانتيه",
+      description: "إضافة كريم شانتيه.",
+      sizes: [{ price: 20 }],
+    },
+    {
+      name: "اكسترا شوت سبريسو",
+      description: "إضافة شوت سبريسو.",
+      sizes: [{ price: 25 }],
+    },
   ];
 
   return (

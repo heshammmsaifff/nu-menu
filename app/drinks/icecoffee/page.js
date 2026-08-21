@@ -6,59 +6,59 @@ import Link from "next/link";
 export default function Coffee() {
   const items = [
     {
-      name: "لاتيه",
+      name: "ايس لاتيه",
       description: "",
       sizes: [
-        { label: "M", price: 85 },
-        { label: "L", price: 105 },
+        { label: "M", price: 90 },
+        { label: "L", price: 110 },
       ],
     },
     {
       name: "سبانيش لاتيه",
       description: "",
       sizes: [
-        { label: "M", price: 95 },
-        { label: "L", price: 110 },
+        { label: "M", price: 100 },
+        { label: "L", price: 120 },
       ],
     },
     {
-      name: "موكا",
+      name: "ايس موكا",
       description: "",
       sizes: [
-        { label: "M", price: 95 },
-        { label: "L", price: 110 },
+        { label: "M", price: 100 },
+        { label: "L", price: 120 },
       ],
     },
     {
       name: "كراميل ميكاتو",
       description: "",
       sizes: [
-        { label: "M", price: 95 },
-        { label: "L", price: 110 },
+        { label: "M", price: 100 },
+        { label: "L", price: 120 },
       ],
     },
     {
       name: "مليونير موكا",
       description: "",
       sizes: [
-        { label: "M", price: 100 },
-        { label: "L", price: 115 },
+        { label: "M", price: 110 },
+        { label: "L", price: 130 },
       ],
     },
     {
       name: "بستاشيو لاتيه",
       description: "",
       sizes: [
-        { label: "M", price: 95 },
-        { label: "L", price: 110 },
+        { label: "M", price: 100 },
+        { label: "L", price: 120 },
       ],
     },
     {
       name: "سولتد كراميل",
       description: "",
       sizes: [
-        { label: "M", price: 90 },
-        { label: "L", price: 105 },
+        { label: "M", price: 100 },
+        { label: "L", price: 120 },
       ],
     },
   ];

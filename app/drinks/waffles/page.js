@@ -13,27 +13,27 @@ export default function Waffles() {
     {
       name: "نوتيلا",
       description: "وافلز مغطى بصوص نوتيلا الشهير.",
-      sizes: [{ price: 90 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "لوتس",
       description: "وافلز بصوص بسكويت اللوتس وتزيين خفيف.",
-      sizes: [{ price: 90 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "شوكليت",
       description: "وافلز بصوص شوكليت كلاسيكي غني.",
-      sizes: [{ price: 85 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "كراميل",
       description: "وافلز مع صوص كراميل كريمي وحلو.",
-      sizes: [{ price: 85 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "وايت شوكليت",
       description: "وافلز بصوص شوكليت أبيض ناعم.",
-      sizes: [{ price: 85 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "nu Family",

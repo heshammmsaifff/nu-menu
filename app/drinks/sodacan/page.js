@@ -2,13 +2,43 @@
 
 import Link from "next/link";
 
-// FRUIT SALAD منيو
-export default function FruitSalad() {
+// page 7
+export default function Extra() {
   const items = [
     {
-      name: "فاكهة موسمية",
-      description: "طبق فواكه مشكلة من أفضل فواكه الموسم.",
-      sizes: [{ price: 150 }],
+      name: "بيبسي",
+      description: "",
+      sizes: [{ price: 50 }],
+    },
+    {
+      name: "7 UP",
+      description: "50",
+      sizes: [{ price: 50 }],
+    },
+    {
+      name: "شويبس رمان",
+      description: "",
+      sizes: [{ price: 50 }],
+    },
+    {
+      name: "شويبس أناناس",
+      description: "",
+      sizes: [{ price: 50 }],
+    },
+    {
+      name: "Red Bull",
+      description: "Ask Flavor",
+      sizes: [{ price: 90 }],
+    },
+    {
+      name: "مياه معدنية",
+      description: "",
+      sizes: [{ price: 13 }],
+    },
+    {
+      name: "بيريل",
+      description: "",
+      sizes: [{ price: 50 }],
     },
   ];
 
@@ -16,10 +46,8 @@ export default function FruitSalad() {
     <main className="nu-page text-right">
       <div className="nu-page__inner flex flex-col gap-8">
         <header className="text-center mb-2">
-          <h1 className="nu-heading">• FRUIT SALAD •</h1>
-          <p className="nu-heading-sub">
-            طبق فواكه موسمية طازجة بتقديم أنيق من nu.
-          </p>
+          <h1 className="nu-heading">• SODA CAN •</h1>
+          <p className="nu-heading-sub">Soda Can nu.</p>
         </header>
 
         {items.map((item, i) => (

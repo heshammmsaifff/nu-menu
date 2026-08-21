@@ -10,7 +10,7 @@ export default function Frappe() {
       description: "",
       sizes: [
         { label: "M", price: 90 },
-        { label: "L", price: 105 },
+        { label: "L", price: 110 },
       ],
     },
     {
@@ -18,7 +18,7 @@ export default function Frappe() {
       description: "",
       sizes: [
         { label: "M", price: 95 },
-        { label: "L", price: 105 },
+        { label: "L", price: 115 },
       ],
     },
     {
@@ -26,15 +26,15 @@ export default function Frappe() {
       description: "",
       sizes: [
         { label: "M", price: 95 },
-        { label: "L", price: 105 },
+        { label: "L", price: 115 },
       ],
     },
     {
       name: "فرابتشينو (شوكلت / كراميل)",
       description: "",
       sizes: [
-        { label: "M", price: 100 },
-        { label: "L", price: 120 },
+        { label: "M", price: 110 },
+        { label: "L", price: 130 },
       ],
     },
   ];

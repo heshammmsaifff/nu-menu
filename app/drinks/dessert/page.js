@@ -23,7 +23,7 @@ export default function Dessert() {
     {
       name: "مولتن كيك",
       description: "كيك شوكليت ساخن بقلب سائل يذوب.",
-      sizes: [{ price: 95 }],
+      sizes: [{ price: 105 }],
     },
     {
       name: "شوكليت كيك",

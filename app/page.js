@@ -113,14 +113,17 @@ export default function Home() {
         >
           {/* DRINKS SECTION (DISABLED) */}
           <div className="flex flex-col items-center gap-4">
-            <button
-              disabled
-              className="nu-button-primary group relative overflow-hidden opacity-60 cursor-not-allowed grayscale-[0.4] flex flex-col items-center justify-center"
-            >
-              <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
-                Drinks & Dessert Menu
-              </span>
-            </button>
+            <Link href="/drinks">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="nu-button-primary group relative overflow-hidden"
+              >
+                <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
+                  Drinks & Dessert Menu
+                </span>
+              </motion.button>
+            </Link>
 
             <p
               className="max-w-md text-base md:text-lg leading-relaxed text-black/80 font-medium"

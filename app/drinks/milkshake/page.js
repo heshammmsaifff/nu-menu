@@ -8,7 +8,7 @@ export default function Milkshake() {
     {
       name: "ميلك كراميل",
       description: "ميلك شيك بنكهة الكراميل الغنية والقوام الكريمي السلس.",
-      sizes: [{ price: 100 }],
+      sizes: [{ price: 110 }],
     },
     {
       name: "ميلك كوفي",
@@ -18,7 +18,7 @@ export default function Milkshake() {
     {
       name: "بلوبيري",
       description: "ميلك شيك بلوبيري فاكهي ولطيف.",
-      sizes: [{ price: 100 }],
+      sizes: [{ price: 110 }],
     },
     {
       name: "فانيليا",

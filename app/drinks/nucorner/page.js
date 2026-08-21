@@ -8,7 +8,7 @@ export default function NuCorner() {
     {
       name: "شاي مثلج (إسأل عن النكهات المتاحة)",
       description: "",
-      sizes: [{ price: 85 }],
+      sizes: [{ price: 100 }],
     },
     {
       name: "افوجادو ايطالي",
@@ -36,14 +36,39 @@ export default function NuCorner() {
       sizes: [{ price: 110 }],
     },
     {
-      name: "بوبا",
+      name: "بوبا لاتيه",
       description: "",
       sizes: [{ price: 120 }],
+    },
+    {
+      name: "بوبا سوفت",
+      description: "",
+      sizes: [{ price: 120 }],
+    },
+    {
+      name: "ميلك شيك تارو",
+      description: "",
+      sizes: [{ price: 130 }],
+    },
+    {
+      name: "ميك شيك ماتشا",
+      description: "",
+      sizes: [{ price: 160 }],
+    },
+    {
+      name: "ايس كركاديه",
+      description: "",
+      sizes: [{ price: 100 }],
     },
     {
       name: "Mix nu",
       description: "",
       sizes: [{ price: 120 }],
+    },
+    {
+      name: "سموزي",
+      description: "اسأل عن النكهات المتاحة",
+      sizes: [{ price: 100 }],
     },
   ];
 

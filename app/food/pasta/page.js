@@ -23,7 +23,7 @@ export default function Cocktails() {
     {
       name: "اسباجتي بلونيز",
       description: "مكرونة اسباجتي - لحم مفروم - ريد صوص",
-      sizes: [{ price: 160 }],
+      sizes: [{ price: 170 }],
     },
   ];
 
