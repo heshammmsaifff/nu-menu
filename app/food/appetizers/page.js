@@ -15,7 +15,7 @@ export default function Cocktails() {
       sizes: [{ price: 45 }],
     },
     {
-      name: "مودزريلا ميكس",
+      name: "مودزريلا ستيكس",
       description: "",
       sizes: [{ price: 65 }],
     },
