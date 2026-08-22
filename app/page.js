@@ -115,9 +115,10 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4">
             <Link href="/drinks">
               <motion.button
+                disabled
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="nu-button-primary group relative overflow-hidden"
+                className="nu-button-primary group  relative overflow-hidden"
               >
                 <span className="relative z-10 text-[18px] md:text-[18px] font-bold tracking-[0.18em] uppercase">
                   Drinks & Dessert Menu

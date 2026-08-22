@@ -51,7 +51,7 @@ export default function NuCorner() {
       sizes: [{ price: 130 }],
     },
     {
-      name: "ميك شيك ماتشا",
+      name: "ميلك شيك ماتشا",
       description: "",
       sizes: [{ price: 160 }],
     },
