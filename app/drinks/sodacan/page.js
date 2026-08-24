@@ -28,12 +28,12 @@ export default function Extra() {
     {
       name: "Red Bull",
       description: "Ask Flavor",
-      sizes: [{ price: 90 }],
+      sizes: [{ price: 95 }],
     },
     {
       name: "مياه معدنية",
       description: "",
-      sizes: [{ price: 13 }],
+      sizes: [{ price: 15 }],
     },
     {
       name: "بيريل",

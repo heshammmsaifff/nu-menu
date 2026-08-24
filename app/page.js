@@ -18,6 +18,7 @@ export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const phoneNumber = "01067674340";
+  const phone2 = "01214447212";
 
   useEffect(() => {
     const handleLoad = () => {
@@ -168,7 +169,7 @@ export default function Home() {
           >
             <Phone size={20} className="group-hover:animate-pulse" />
             <span className="text-lg font-bold tracking-[0.1em]">
-              {phoneNumber}
+              تواصل معنا
             </span>
           </motion.button>
         </motion.div>
@@ -203,12 +204,12 @@ export default function Home() {
                 <div className="w-16 h-16 bg-[#e2ba5b]/10 rounded-full flex items-center justify-center mb-4 border border-[#e2ba5b]/20">
                   <PhoneCall className="text-[#e2ba5b]" size={28} />
                 </div>
-                <h3 className="text-[#f7e6c3] text-2xl font-bold mb-8 tracking-tighter">
+                {/* <h3 className="text-[#f7e6c3] text-2xl font-bold mb-8 tracking-tighter">
                   {phoneNumber}
-                </h3>
+                </h3> */}
 
                 <div className="flex flex-col gap-3 w-full">
-                  <button
+                  {/* <button
                     onClick={copyToClipboard}
                     className="flex items-center justify-between w-full p-4 rounded-2xl bg-white/5 hover:bg-[#e2ba5b]/20 border border-white/10 transition-all group"
                   >
@@ -220,22 +221,25 @@ export default function Home() {
                     ) : (
                       <Copy size={18} className="text-[#e2ba5b]" />
                     )}
-                  </button>
+                  </button> */}
 
                   <a
                     href={`tel:${phoneNumber}`}
                     className="flex items-center justify-between w-full p-4 rounded-2xl bg-white/5 hover:bg-[#e2ba5b]/20 border border-white/10 transition-all"
                   >
-                    <span className="text-white font-medium">اتصال هاتفي</span>
+                    <p className="text-white font-medium">{phoneNumber}</p>
+                    <p className="text-white font-medium">اتصال هاتفي</p>
                     <PhoneCall size={18} className="text-[#e2ba5b]" />
                   </a>
 
                   <a
-                    href={`https://wa.me/201067674340`}
+                    href={`https://wa.me/2${phone2}`}
                     target="_blank"
                     className="flex items-center justify-between w-full p-4 rounded-2xl bg-white/5 hover:bg-[#25D366]/10 border border-white/10 transition-all"
                   >
-                    <span className="text-white font-medium">واتساب</span>
+                    <p className="text-white font-medium">{phone2}</p>
+
+                    <p className="text-white font-medium">واتساب</p>
                     <MessageCircle size={18} className="text-[#25D366]" />
                   </a>
                 </div>
