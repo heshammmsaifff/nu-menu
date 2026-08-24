@@ -17,8 +17,8 @@ export default function Home() {
   const [showMain, setShowMain] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [copied, setCopied] = useState(false);
-  const phoneNumber = "01067674340";
-  const phone2 = "01214447212";
+  const phone2 = "01067674340";
+  const phoneNumber = "01214447212";
 
   useEffect(() => {
     const handleLoad = () => {
@@ -169,7 +169,7 @@ export default function Home() {
           >
             <Phone size={20} className="group-hover:animate-pulse" />
             <span className="text-lg font-bold tracking-[0.1em]">
-              تواصل معنا
+              Contact Us
             </span>
           </motion.button>
         </motion.div>
@@ -228,7 +228,7 @@ export default function Home() {
                     className="flex items-center justify-between w-full p-4 rounded-2xl bg-white/5 hover:bg-[#e2ba5b]/20 border border-white/10 transition-all"
                   >
                     <p className="text-white font-medium">{phoneNumber}</p>
-                    <p className="text-white font-medium">اتصال هاتفي</p>
+                    <p className="text-white font-medium">Call</p>
                     <PhoneCall size={18} className="text-[#e2ba5b]" />
                   </a>
 
@@ -239,7 +239,7 @@ export default function Home() {
                   >
                     <p className="text-white font-medium">{phone2}</p>
 
-                    <p className="text-white font-medium">واتساب</p>
+                    <p className="text-white font-medium">Whats App</p>
                     <MessageCircle size={18} className="text-[#25D366]" />
                   </a>
                 </div>
