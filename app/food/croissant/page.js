@@ -14,42 +14,42 @@ export default function HotDrinks() {
     {
       name: "كرواسو سادة",
       description: "",
-      sizes: [{ price: 55 }],
+      sizes: [{ price: 60 }],
     },
     {
       name: "كرواسو تركي",
       description: "شريحة تركي + خس + شيدر + مايونيز أو مستردة",
-      sizes: [{ price: 95 }],
+      sizes: [{ price: 105 }],
     },
     {
       name: "كرواسو رومي",
       description: "رومي + خس + مايونيز",
-      sizes: [{ price: 75 }],
+      sizes: [{ price: 85 }],
     },
     {
       name: "كرواسو شيدر",
       description: "شيدر + خس + مايونيز",
-      sizes: [{ price: 75 }],
+      sizes: [{ price: 85 }],
     },
     {
       name: "كرواسو (نوتيلا / لوتس / وايت شوكليت)",
       description: "",
-      sizes: [{ price: 60 }],
+      sizes: [{ price: 75 }],
     },
     {
       name: "كرواسو عسل",
       description: "",
-      sizes: [{ price: 60 }],
+      sizes: [{ price: 75 }],
     },
     {
       name: "كرواسو بستاشيو",
       description: "",
-      sizes: [{ price: 70 }],
+      sizes: [{ price: 80 }],
     },
     {
       name: "كرواسو ميكس جبن",
       description: "شيدر + موتزريلا + رومي",
-      sizes: [{ price: 90 }],
+      sizes: [{ price: 105 }],
     },
   ];
 
