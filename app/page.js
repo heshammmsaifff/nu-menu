@@ -112,11 +112,11 @@ export default function Home() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="flex flex-col items-center gap-10 text-center z-10 px-6"
         >
-          {/* DRINKS SECTION (DISABLED) */}
+          {/* DRINKS SECTION */}
           <div className="flex flex-col items-center gap-4">
             <Link href="/drinks">
               <motion.button
-                disabled
+
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="nu-button-primary group  relative overflow-hidden"
